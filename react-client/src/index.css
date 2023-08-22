@@ -1,0 +1,300 @@
+* {
+    font-family: "Segoe UI", serif;
+    text-decoration: none;
+}
+
+html {
+    background-image: url("../public/RubyMine blur.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#root {
+    margin: 0;
+    height: 100dvh;
+}
+
+main {
+    display: flex;
+    height: 100%;
+}
+
+.navigation {
+    position: fixed;
+    height: 100dvh;
+    width: 250px;
+    top: 0;
+    left: 0;
+    padding: 2ex;
+    box-shadow: inset 0 0 0 3000px rgba(150, 150, 150, 0.292);
+    color: white;
+}
+
+.nav-head,
+.nav-item a {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 1ex;
+}
+
+.nav-item a:hover {
+    background-color: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(10px);
+    border-radius: 1ex;
+}
+
+.nav-head h1 {
+    font-size: 18px;
+}
+
+.nav-item a h2 {
+    font-size: 15px;
+}
+
+.navigation ul li {
+    margin-bottom: 1ex;
+}
+
+.nav-icon {
+    margin-right: 1ex;
+}
+
+.board-view,
+.board-view-centered {
+    position: relative;
+    left: 250px;
+    margin-top: 2ex;
+    width: calc(100% - 250px);
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.board-view-centered {
+    align-items: center;
+}
+
+.input-stats-area {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    height: 200px;
+    width: 200px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(10px);
+    border-radius: 1ex;
+    padding: 2ex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button-stats-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2ex;
+}
+
+.input-single-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.single-date-tip-text {
+    margin-bottom: 1ex;
+}
+
+.day-column, .dose {
+    width: 12.5rem;
+    height: max-content;
+    color: #ffffff;
+    padding: 2ex;
+    border-radius: 2ex;
+    box-shadow: inset 0 0 0 3000px rgba(150, 150, 150, 0.292);
+    backdrop-filter: blur(10px);
+}
+
+.dose {
+    width: 16rem;
+}
+
+.column-head,
+.column-head-stats {
+    display: flex;
+    align-items: center;
+}
+
+.column-head {
+    justify-content: space-between;
+}
+
+.column-head-stats {
+    justify-content: center;
+}
+
+.form-input-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: #373e47;
+    border: 2px solid #464e57;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5ex;
+    border-radius: 1ex;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #444c56;
+    border: 2px solid #768390;
+}
+
+.green-btn {
+    background-color: #347d39;
+    border: 2px solid #44864a;
+}
+
+.green-btn:hover {
+    background-color: #46954a;
+    border: 2px solid #549c59;
+}
+
+.orange-btn {
+    background-color: #c48818;
+    border: 2px solid #d08f17;
+    width: min-content;
+    height: min-content;
+    padding: 0.3ex;
+}
+
+.orange-btn:hover {
+    background-color: #d29016;
+    border: 2px solid #e09814;
+}
+
+.red-btn {
+    background-color: #af3434;
+    border: 2px solid #b84444;
+    width: max-content;
+    height: max-content;
+    padding: 0.3ex;
+}
+
+.red-btn:hover {
+    background-color: #c74646;
+    border: 2px solid #ce5454;
+}
+
+.orange-btn,
+.red-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats-submit-btn {
+    width: 20ex;
+}
+
+.single-data, .single-dose-data {
+    display: flex;
+    justify-content: space-between;
+    padding: 1ex;
+    border-radius: 1ex;
+    min-height: 8ex;
+    margin-bottom: 1ex;
+    background: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(10px);
+}
+
+.single-dose-data {
+    min-height: 4ex;
+    align-items: center;
+}
+
+.data-info-stats {
+    width: 100%;
+}
+
+.dose-info {
+    display: flex;
+    height: max-content;
+}
+
+.data-time-container {
+    display: flex;
+    justify-content: center;
+}
+
+.data-time, .dose-data {
+    font-family: Consolas, serif;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1ex;
+    padding: 0.5ex;
+    border-radius: 0.5ex;
+    background: rgb(116, 33, 72, 0.75);
+    backdrop-filter: blur(10px);
+}
+
+.dose-data {
+    margin: 0;
+}
+
+.data-list {
+    margin: 0;
+    padding: 0.5ex;
+    border-radius: 0.5ex;
+}
+
+.data-list-item {
+    display: flex;
+    align-items: center;
+}
+
+.data-list-item i {
+    margin-right: 0.3ex;
+}
+
+.interaction-buttons-area, .interaction-doses-buttons-area {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2ex;
+}
+
+.interaction-doses-buttons-area {
+    row-gap: 1ex;
+}
+
+.day-column-name {
+    text-align: center;
+}
+
+.input-area {
+    background: white;
+    border: 1px solid #d9d9d9;
+    border-radius: 1ex;
+    margin: 0.3ex 0 1ex 0;
+    padding: 1ex;
+}
+
+.btn-container {
+    margin-top: 1ex;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
