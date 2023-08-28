@@ -204,7 +204,7 @@ export default function Stats() {
 
     return (
         <main>
-            <div className={"board-view-centered"}>
+            <div className="board-view-centered">
                 <div className="input-stats-area">
                     <div className="input-single-date">
                         <span className="single-date-tip-text">Дата 1</span>

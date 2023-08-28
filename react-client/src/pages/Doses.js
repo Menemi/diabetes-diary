@@ -147,7 +147,7 @@ export default function Doses() {
 
     return (
         <main>
-            <div className={"board-view-centered"}>
+            <div className="board-view-centered">
                 <div className="day-column dose">
                     {(showingAddNewDoseForm === false && updatedDose === null) && (
                         <div className="column-head">

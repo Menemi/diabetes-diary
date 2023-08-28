@@ -1,1 +1,3 @@
-# DiabetesDiary [AspNetCoreReact]
+# Дневник диабета
+
+## 

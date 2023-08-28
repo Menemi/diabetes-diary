@@ -480,7 +480,7 @@ export default function App() {
 
     return (
         <main>
-            <div className={"board-view"}>
+            <div className="board-view">
                 <div className="day-column">
                     {(showingAddNewSugarForm === false && updatedSugar === null) && (
                         <div className="column-head">

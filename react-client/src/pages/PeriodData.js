@@ -199,7 +199,7 @@ export default function PeriodData() {
 
     return (
         <main>
-            <div className={"board-view"}>
+            <div className="board-view">
                 <div className="input-stats-area">
                     <div className="input-single-date">
                         <span className="single-date-tip-text">Дата 1</span>

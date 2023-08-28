@@ -161,3 +161,4 @@ D:\tempProjects\fullstack\DiabetesDiary\AspNetServer\obj\Debug\net6.0\ref\AspNet
 D:\tempProjects\fullstack\DiabetesDiary\AspNetServer\bin\Debug\net6.0\NetTopologySuite.dll
 D:\tempProjects\fullstack\DiabetesDiary\AspNetServer\bin\Debug\net6.0\NetTopologySuite.Features.dll
 D:\tempProjects\fullstack\DiabetesDiary\AspNetServer\bin\Debug\net6.0\NetTopologySuite.IO.GeoJSON4STJ.dll
+D:\tempProjects\fullstack\DiabetesDiary\AspNetServer\bin\Debug\net6.0\Data\AppDb.db

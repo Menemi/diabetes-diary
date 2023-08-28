@@ -10,7 +10,7 @@ export default function Navigation() {
                 <h1>Дневник диабета</h1>
             </NavLink>
             <ul className="nav-list">
-                <li className={"nav-item"}>
+                <li className="nav-item">
                     <NavLink className="nav-link" to="/"
                              style={({isActive}) => (
                                  isActive
@@ -21,7 +21,7 @@ export default function Navigation() {
                         <h2>Сегодня</h2>
                     </NavLink>
                 </li>
-                <li className={"nav-item"}>
+                <li className="nav-item">
                     <NavLink className="nav-link" to="/stats"
                              style={({isActive}) => (
                                  isActive
@@ -32,7 +32,7 @@ export default function Navigation() {
                         <h2>Данные за период времени</h2>
                     </NavLink>
                 </li>
-                <li className={"nav-item"}>
+                <li className="nav-item">
                     <NavLink className="nav-link" to="/last-changes"
                              style={({isActive}) => (
                                  isActive
@@ -43,7 +43,7 @@ export default function Navigation() {
                         <h2>Статистика</h2>
                     </NavLink>
                 </li>
-                <li className={"nav-item"}>
+                <li className="nav-item">
                     <NavLink className="nav-link" to="/doses"
                              style={({isActive}) => (
                                  isActive
