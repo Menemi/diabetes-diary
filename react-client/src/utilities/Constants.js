@@ -110,13 +110,3 @@ const prod = {
 const Constants = process.env.NODE_ENV === "development" ? dev : prod;
 
 export default Constants;
-
-export const activeBlur = {
-    background: "rgba(165, 165, 165, 0.192)",
-    backdropFilter: "blur(10px)",
-    borderRadius: "1ex"
-}
-
-export const nonActiveBlur = {
-    color: "white"
-}
